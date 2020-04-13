@@ -1,16 +1,29 @@
 ### JavaScript背景
 
+JavaScript出生年份：1995年（比我大一岁，哈哈哈）
 
+出生公司：Netscape
+
+原名：LiveScript
+
+起初它的主要目的是处理由服务器语言负责的一些输入验证操作
 
 ### JavaScript组成
 
+- #### ECMAScript
+
+- #### DOM（Document Object Model 文件对象模型）
+
+- #### BOM(Browser Object Model 浏览器对象模型)
 
 ### JavaScript位置
+
 * #### 行间JS
-    ```
-	<div onclick="alert(11111111)"></div>
+    
 	```
-   
+	<div onclick="alert(11111111)"></div>
+   ```
+	
 	* 优点
 		* 直接作用于当前元素
 	* 缺点
