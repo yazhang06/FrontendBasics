@@ -18,6 +18,16 @@ JavaScript出生年份：1995年（比我大一岁，哈哈哈）
 
   - 是针对XML但经过扩展用于HTML的应用程序编程接口，DOM把整个页面映射为一个多层节点结构
   - 提供访问和操作网页内容的方法和接口
+  - DOM级别：
+    - DOM1: 
+      - DOM核心： 如何映射基于XML的文档结构
+      - DOM HTML： 在DOM核心的基础上进行扩展，添加了针对HTML的对象和方法
+    - DOM2: 在原来的DOM的基础上扩充
+      - DOM视图（DOM Views）：定义了跟踪不同文档
+      - DOM事件（DOM Events）：定义了事件和事件处理的接口
+      - DOM样式（DOM Style）：定义了基于CSS为元素应用样式的接口
+      - DOM遍历和范围（DOM Traversal and Range）：定义了遍历和操作文档树的接口
+    - DOM3 ： 引入了以统一方式加载和保存的文档方法
 
 - #### BOM(Browser Object Model 浏览器对象模型)
 
@@ -26,10 +36,10 @@ JavaScript出生年份：1995年（比我大一岁，哈哈哈）
 ### JavaScript位置
 
 * #### 行间JS
-    
+  
 	```
 	<div onclick="alert(11111111)"></div>
-   ```
+  ```
 	
 	* 优点
 		* 直接作用于当前元素
